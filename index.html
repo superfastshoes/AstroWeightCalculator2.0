@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>I'm a Spaceman!</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<h1 id="mainHeader">Let's find out how much you weight on another planet</h1>
+		<h2 id="greeting">Go ahead and input your weight then select the planet you wish to visit</h2>
+	</div>	
+
+	<!-- User enters their weight -->
+	<form class="form-inline container">
+		<div>
+			<label>Enter your weight here</label>
+			<input type="number" id="weightEntered" name="weight">
+		</div>
+	</form>
+	
+	<!-- User then picks a planet -->
+	<div class="container">
+		<p>Now let's do some exploring!</p>
+		<select id="planetOption">
+			<option value="27.9">The Sun</option>
+			<option value="0.377">Mercury</option>
+			<option value="0.9032">Venus</option>
+			<option value="1">Earth</option>
+			<option value="0.1655">Moon</option>
+			<option value="0.3895">Mars</option>
+			<option value="2.640">Jupiter</option>
+			<option value="1.139">Saturn</option>
+			<option value="0.917">Uranus</option>
+			<option value="1.148">Neptune</option>
+			<option value="0.06">Pluto</option>
+		</select>
+	</div>
+	
+	<!-- User clicks button to start the process -->
+	<div class="container">
+		<button type="button" class="buttonPress btn btn-success" id="buttonPress">Ignition</button>
+
+	<!-- Output message -->
+		<h6 id="outputMessage"></h6>
+	</div>
+		
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>															

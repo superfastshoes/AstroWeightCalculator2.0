@@ -1,0 +1,20 @@
+{
+  "name": "AstroWeightCalculator2.0",
+  "main": "index.js",
+  "authors": [
+    "Heriberto Basulto <basulto93@live.com>"
+  ],
+  "description": "Second version of the Astro Calc.",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
